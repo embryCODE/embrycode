@@ -1,3 +1,5 @@
+/* header and nav section */
+
 .embrycode-logo {
   width: 200px;
 }
@@ -8,22 +10,45 @@
   top: 5px;
 }
 
+
+/* about me section */
+
 #about {
   background-color: white;
   color: #3a3c4a;
+  padding-bottom: 0;
 }
+
+
+/* what i know section */
 
 #technologies {
   background-color: #1D2026;
   color: #fff;
 }
 
+.services {
+  background-color: white;
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+
+/* featured project section */
+
 #feat-project {
   padding-bottom: 50px;
 }
 
+
+/* my work section */
+
+
+/* media queries */
+
 @media (max-width: 1200px) {
-	#main-nav li {
+  #main-nav li {
     margin: 0 10px;
   }
 }
