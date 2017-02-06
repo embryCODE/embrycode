@@ -1,0 +1,25 @@
+.embrycode-logo {
+  width: 200px;
+}
+
+.e-logo {
+  width: 60px;
+  position: relative;
+  top: 5px;
+}
+
+#about {
+  background-color: white;
+  color: #3a3c4a;
+}
+
+#technologies {
+  background-color: #1D2026;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+	#main-nav li {
+    margin: 0 10px;
+  }
+}
