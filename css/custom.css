@@ -18,6 +18,10 @@
   color: #fff;
 }
 
+#feat-project {
+  padding-bottom: 50px;
+}
+
 @media (max-width: 1200px) {
 	#main-nav li {
     margin: 0 10px;
