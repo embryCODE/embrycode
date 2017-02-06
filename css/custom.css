@@ -30,8 +30,11 @@
 .services {
   background-color: white;
   color: black;
-  padding-top: 50px;
-  padding-bottom: 0;
+  padding: 50px 30px 15px;
+}
+
+.services .item {
+  margin-bottom: 0;
 }
 
 
