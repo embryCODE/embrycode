@@ -16,6 +16,7 @@
 #about {
   background-color: white;
   color: #3a3c4a;
+  padding-top: 80px;
   padding-bottom: 0;
 }
 
@@ -25,6 +26,8 @@
 #technologies {
   background-color: #1D2026;
   color: #fff;
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
 
 .services {
@@ -37,15 +40,30 @@
   margin-bottom: 0;
 }
 
+.other-tech {
+  padding: 40px 10px 0 10px;
+}
+
 
 /* featured project section */
 
 #feat-project {
+  padding-top: 70px;
   padding-bottom: 50px;
 }
 
 
 /* my work section */
+
+#portfolio {
+  padding-top: 70px;
+}
+
+/* contact section */
+
+#contact {
+  padding-top: 70px;
+}
 
 
 /* media queries */
