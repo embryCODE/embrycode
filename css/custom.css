@@ -70,6 +70,14 @@
   padding-top: 70px;
 }
 
+.g-recaptcha {
+  margin: 15px auto;
+  width: 304px;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
 
 /* media queries */
 
