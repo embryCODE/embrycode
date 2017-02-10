@@ -52,10 +52,11 @@ if(isset($_POST['submitted'])) {
 				$response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$captcha."&remoteip=".$ip);
 			        $responseKeys = json_decode($response,true);
 			        if(intval($responseKeys["success"]) !== 1) {
-			          echo '<h2>You are spammer! Get the outta here!</h2>';
+			          echo '<h2>You are spammer! Get outta here!</h2>';
 								$hasError = true;
 			        }
 
+	// CUSTOM: original code continues
 	// upon no failure errors let's email now!
 	if(!isset($hasError)) {
 

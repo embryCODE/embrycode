@@ -1,11 +1,11 @@
 $(document).ready(function () {
   $('#contact-form').submit(function (event) {
-		// prevents form submission if recaptcha is unchecked
+		// CUSTOM: prevents form submission if recaptcha is unchecked
     var recaptcha = $('#g-recaptcha-response').val()
     if (recaptcha === '') {
       event.preventDefault()
     } else {
-			// original code is below and runs if recaptcha is checked
+			// CUSTOM: original code is below and runs if recaptcha is checked
       if ($('#contact-form').hasClass('clicked')) {
         return false
       }
