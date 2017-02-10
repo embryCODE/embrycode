@@ -38,6 +38,23 @@ if(isset($_POST['submitted'])) {
 		}
 	}
 
+	// CUSTOM: we need a valid recaptcha
+	$captcha;
+	if(isset($_POST['g-recaptcha-response'])){
+          $captcha=$_POST['g-recaptcha-response'];
+        }
+        if(!$captcha){
+          $commentError = 'Please check the captcha form.';
+          $hasError = true;
+        }
+        $secretKey = "6LemIBUUAAAAAKbzPHAd7rBV-0fy4PKGK4nCKYW4";
+        $ip = $_SERVER['REMOTE_ADDR'];
+				$response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$captcha."&remoteip=".$ip);
+			        $responseKeys = json_decode($response,true);
+			        if(intval($responseKeys["success"]) !== 1) {
+			          $commentError = 'You are a spammer! Get outta here!';
+								$hasError = true;
+			        }
 	// upon no failure errors let's email now!
 	if(!isset($hasError)) {
 
