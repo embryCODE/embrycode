@@ -4,7 +4,6 @@ $(document).ready(function () {
     var recaptcha = $('#g-recaptcha-response').val()
     if (recaptcha === '') {
       event.preventDefault()
-      alert('Please check the recaptcha')
     } else {
 			// original code is below and runs if recaptcha is checked
       if ($('#contact-form').hasClass('clicked')) {
