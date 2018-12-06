@@ -1,827 +1,1144 @@
 <!DOCTYPE html>
-<html lang="en-US" class="no-js">
+<html class="no-js" lang="en-US">
 
 <head>
 
-	<!-- ==============================================
-		Title and Meta Tags
-		=============================================== -->
-	<meta charset="utf-8">
-	<title>embryCODE</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="google-site-verification" content="F7O1HbnYPzktH8yUnay_wAOewtVB1H3u5Pr6O2DfYdo">
+  <!-- ==============================================
+    Title and Meta Tags
+    =============================================== -->
+  <meta charset="utf-8">
+  <title>embryCODE</title>
+  <meta
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+    name="viewport"
+  >
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta
+    content="F7O1HbnYPzktH8yUnay_wAOewtVB1H3u5Pr6O2DfYdo"
+    name="google-site-verification"
+  >
 
-	<!-- ==============================================
-		Favicons
-		=============================================== -->
-	<link rel="shortcut icon" href="assets/favicon.ico">
-	<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="assets/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="assets/apple-touch-icon-114x114.png">
+  <!-- ==============================================
+    Favicons
+    =============================================== -->
+  <link href="assets/favicon.ico" rel="shortcut icon">
+  <link href="assets/apple-touch-icon.png" rel="apple-touch-icon">
+  <link
+    href="assets/apple-touch-icon-72x72.png"
+    rel="apple-touch-icon"
+    sizes="72x72"
+  >
+  <link
+    href="assets/apple-touch-icon-114x114.png"
+    rel="apple-touch-icon"
+    sizes="114x114"
+  >
 
-	<!-- ==============================================
-		CSS
-		=============================================== -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/flexslider.css">
-	<link rel="stylesheet" href="css/meflat-blue.css">
-	<link rel="stylesheet" href="css/custom.css">
+  <!-- ==============================================
+    CSS
+    =============================================== -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/flexslider.css" rel="stylesheet">
+  <link href="css/meflat-blue.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
 
 
-	<!-- ==============================================
-		Fonts
-		=============================================== -->
-	<link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,200,400italic,600,600italic" rel="stylesheet" type="text/css">
+  <!-- ==============================================
+    Fonts
+    =============================================== -->
+  <link
+    href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700"
+    rel="stylesheet"
+    type="text/css"
+  >
+  <link
+    href="http://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,200,400italic,600,600italic"
+    rel="stylesheet"
+    type="text/css"
+  >
 
-	<!-- ==============================================
-		JS
-		=============================================== -->
+  <!-- ==============================================
+    JS
+    =============================================== -->
 
-	<!--[if lt IE 9]>
-			<script src="js/respond.min.js"></script>
-		<![endif]-->
+  <!--[if lt IE 9]>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
 
-	<script type="text/javascript" src="js/libs/modernizr.min.js"></script>
+  <script src="js/libs/modernizr.min.js" type="text/javascript"></script>
 
 
 </head>
 
-<body data-spy="scroll" data-target="#main-nav" data-offset="400">
-	<!-- ==============================================
-		MAIN NAV
-		=============================================== -->
-	<div id="main-nav" class="navbar navbar-fixed-top">
-		<div class="container">
+<body data-offset="400" data-spy="scroll" data-target="#main-nav">
+<!-- ==============================================
+  MAIN NAV
+  =============================================== -->
+<div class="navbar navbar-fixed-top" id="main-nav">
+  <div class="container">
+
+    <div class="navbar-header">
+
+      <button
+        class="navbar-toggle"
+        data-target="#site-nav"
+        data-toggle="collapse"
+        type="button"
+      >
+        <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+      </button>
+
+      <!-- ======= LOGO (for small screens)========-->
+      <a
+        class="navbar-brand visible-xs scrollto e-logo"
+        href="#home"
+      ><img class="img-responsive" src="assets/e-logo.png"></a>
+
+    </div>
+
+    <div class="navbar-collapse collapse" id="site-nav">
+      <ul class="nav navbar-nav">
+        <li>
+          <a class="scrollto" href="#about">About Me</a>
+        </li>
+        <li>
+          <a class="scrollto" href="#technologies">What I Know</a>
+        </li>
+        <li id="logo">
+          <a class="scrollto" href="#home">
+            <img class="embrycode-logo" src="assets/embrycode-logo-1.png">
+          </a>
+        </li>
+        <li>
+          <a class="scrollto" href="#portfolio">My Work</a>
+        </li>
+        <li>
+          <a class="scrollto" href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+    <!--End navbar-collapse -->
 
-			<div class="navbar-header">
+  </div>
+  <!--End container -->
+
+</div>
+<!--End main-nav -->
+
+<!-- ==============================================
+  HEADER
+  =============================================== -->
+<header class="jumbotron bg-image" id="home">
+
+  <div class="container">
+
+    <div class="row">
 
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
-						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-					</button>
+      <div class="col-sm-12 text-col text-center">
+
+        <h1>Hi, I'm Mason Embry</h1>
+        <p>Full Stack Web Developer</p>
 
-				<!-- ======= LOGO (for small screens)========-->
-				<a class="navbar-brand visible-xs scrollto e-logo" href="#home"><img class="img-responsive" src="assets/e-logo.png"></a>
+      </div>
 
-			</div>
+    </div>
 
-			<div id="site-nav" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li>
-						<a href="#about" class="scrollto">About Me</a>
-					</li>
-					<li>
-						<a href="#technologies" class="scrollto">What I Know</a>
-					</li>
-					<li id="logo">
-						<a href="#home" class="scrollto">
-							<img class="embrycode-logo" src="assets/embrycode-logo-1.png">
-						</a>
-					</li>
-					<li>
-						<a href="#portfolio" class="scrollto">My Work</a>
-					</li>
-					<li>
-						<a href="#contact" class="scrollto">Contact Me</a>
-					</li>
-				</ul>
-			</div>
-			<!--End navbar-collapse -->
+  </div>
 
-		</div>
-		<!--End container -->
+</header>
+<!--End header -->
 
-	</div>
-	<!--End main-nav -->
+<!-- ==============================================
+  ABOUT
+  =============================================== -->
+<section class="dark-bg light-typo padding-top-bottom" id="about">
 
-	<!-- ==============================================
-		HEADER
-		=============================================== -->
-	<header id="home" class="jumbotron bg-image">
+  <div class="container">
 
-		<div class="container">
+    <header class="section-header text-center">
 
-			<div class="row">
+      <h1 class="scrollimation scale-in">About Me</h1>
 
-				<div class="col-sm-12 text-col text-center">
+    </header>
 
-					<h1>Hi, I'm Mason Embry</h1>
-					<p>Full Stack JavaScript Developer</p>
+    <div class="row">
 
-				</div>
+      <div class="col-sm-8 col-sm-offset-2">
 
-			</div>
+        <img
+          alt=""
+          class="img-responsive img-center img-circle scrollimation fade-left"
+          src="assets/about.jpg"
+        />
 
-		</div>
+        <p class="text-center scrollimation fade-in">
+          I am a <a href="http://www.masonembry.com">musician</a> and
+          <a href="https://github.com/embryCODE">web developer</a> with
+          experience in both the frontend and backend,
+          using technologies such as Node, Elixir, Phoenix, Vue, React, Elm,
+          Webpack, etc. I have built single page applications using multiple
+          JavaScript frameworks and helped to maintain a Node/Couchbase API.
+        </p>
 
-	</header>
-	<!--End header -->
+        <p class="text-center scrollimation fade-in">
+          As team leader, I can derive clear work tasks from a project plan,
+          leading to an on-time delivery with minimal technical debt. I am
+          comfortable facilitating Scrum meetings and working with various
+          project management tools.
+        </p>
 
-	<!-- ==============================================
-		ABOUT
-		=============================================== -->
-	<section id="about" class="dark-bg light-typo padding-top-bottom">
+        <p class="text-center scrollimation fade-in">
+          I enjoy solving problems with technology, and coding has given me many
+          new ways to do so. I look forward to expanding that toolset daily. It
+          is especially exciting to be adding to my JavaScript knowledge by
+          learning functional programming in Elixir and Elm and spending more
+          time working with APIs and databases.
+        </p>
 
-		<div class="container">
+      </div>
 
-			<header class="section-header text-center">
+    </div>
 
-				<h1 class="scrollimation scale-in">About Me</h1>
 
-			</header>
+    <p class="text-center"><a
+      class="btn btn-meflat scrollto white icon-left"
+      href="#contact"
+    ><i class="fa fa-arrow-down"></i>Hire Me</a></p>
 
-			<div class="row">
+  </div>
 
-				<div class="col-sm-8 col-sm-offset-2">
+</section>
 
-					<img class="img-responsive img-center img-circle scrollimation fade-left" src="assets/about.jpg" alt="" />
+<!-- ==============================================
+  WHAT I KNOW
+  =============================================== -->
+<section class="white-bg padding-top-bottom" id="technologies">
 
-					<p class="text-center scrollimation fade-in">
-						I am a graduate of the University of Louisville and have been a professional <a href="http://www.masonembry.com">musician</a> and music producer for over 20 years, including a four year tenure with country artist, Chris Young. Now based in Nashville,
-						TN, I head up my own jazz trio and produce demos and master projects.
-					</p>
+  <div class="container">
 
-					<p class="text-center scrollimation fade-in">
-						I have received <a href="https://teamtreehouse.com/embrycode">training</a> as a Full Stack Web Developer gaining proficiency in JavaScript, Node.js, Express, MongoDB, AngularJS, and related web technologies. Whether producing music projects or
-						<a href="https://github.com/embryCODE">coding</a> for the web, I balance creativity with good management and get the job done on time and under budget. My greatest rewards come from finding smart solutions to difficult problems.
-					</p>
+    <header class="section-header text-center">
 
-				</div>
+      <h1 class="scrollimation scale-in">What I Know</h1>
+      <p>
+        I'll admit, I'm currently a little too busy to update all of these
+        lovely icons to represent the technologies I'm currently most familiar
+        with and excited about. Lets just say these form the foundation. In
+        addition, my
+        current passions are Vue, Node, Elixir, Phoenix, and Elm.
+      </p>
 
-			</div>
+    </header>
 
+    <div class="row services">
 
+      <div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
 
-			<p class="text-center"><a class="btn btn-meflat scrollto white icon-left" href="#contact"><i class="fa fa-arrow-down"></i>Hire Me</a></p>
+        <div class="icon">
+          <img alt="" class="img-responsive img-center" src="assets/html.png"/>
+        </div>
 
-		</div>
+        <h4>HTML</h4>
 
-	</section>
+      </div>
 
-	<!-- ==============================================
-		WHAT I KNOW
-		=============================================== -->
-	<section id="technologies" class="white-bg padding-top-bottom">
+      <div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
 
-		<div class="container">
+        <div class="icon">
+          <img alt="" class="img-responsive img-center" src="assets/css.png"/>
+        </div>
 
-			<header class="section-header text-center">
+        <h4>CSS</h4>
 
-				<h1 class="scrollimation scale-in">What I Know</h1>
-				<p>
-					Here is a selection of the web technologies that I am most familiar with, and of course I'm regularly adding more to my repertoir. Never stop learning.
-				</p>
+      </div>
 
-			</header>
+      <div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
 
-			<div class="row services">
+        <div class="icon">
+          <img alt="" class="img-responsive img-center" src="assets/js.png"/>
+        </div>
 
-				<div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
+        <h4>JavaScript</h4>
 
-					<div class="icon">
-						<img class="img-responsive img-center" src="assets/html.png" alt="" />
-					</div>
+      </div>
 
-					<h4>HTML</h4>
+      <div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
 
-				</div>
+        <div class="icon">
+          <img
+            alt=""
+            class="img-responsive img-center"
+            src="assets/nodejs.png"
+          />
+        </div>
 
-				<div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
+        <h4>Node.js</h4>
 
-					<div class="icon">
-						<img class="img-responsive img-center" src="assets/css.png" alt="" />
-					</div>
+      </div>
 
-					<h4>CSS</h4>
+      <div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
 
-				</div>
+        <div class="icon">
+          <img
+            alt=""
+            class="img-responsive img-center"
+            src="assets/express.png"
+          />
+        </div>
 
-				<div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
+        <h4>Express</h4>
 
-					<div class="icon">
-						<img class="img-responsive img-center" src="assets/js.png" alt="" />
-					</div>
+      </div>
 
-					<h4>JavaScript</h4>
+      <div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
 
-				</div>
+        <div class="icon">
+          <img
+            alt=""
+            class="img-responsive img-center"
+            src="assets/angularjs.png"
+          />
+        </div>
 
-				<div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
+        <h4>AngularJS</h4>
 
-					<div class="icon">
-						<img class="img-responsive img-center" src="assets/nodejs.png" alt="" />
-					</div>
+      </div>
+    </div>
+    <div class="row services">
 
-					<h4>Node.js</h4>
+      <div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
 
-				</div>
+        <div class="icon">
+          <img
+            alt=""
+            class="img-responsive img-center"
+            src="assets/mongodb.png"
+          />
+        </div>
 
-				<div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
+        <h4>MongoDB</h4>
 
-					<div class="icon">
-						<img class="img-responsive img-center" src="assets/express.png" alt="" />
-					</div>
+      </div>
 
-					<h4>Express</h4>
+      <div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
 
-				</div>
+        <div class="icon">
+          <img alt="" class="img-responsive img-center" src="assets/sql.png"/>
+        </div>
 
-				<div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
+        <h4>SQL</h4>
 
-					<div class="icon">
-						<img class="img-responsive img-center" src="assets/angularjs.png" alt="" />
-					</div>
+      </div>
 
-					<h4>AngularJS</h4>
+      <div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
 
-				</div>
-			</div>
-			<div class="row services">
+        <div class="icon">
+          <img alt="" class="img-responsive img-center" src="assets/rest.png"/>
+        </div>
 
-				<div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
+        <h4>REST</h4>
 
-					<div class="icon">
-						<img class="img-responsive img-center" src="assets/mongodb.png" alt="" />
-					</div>
+      </div>
 
-					<h4>MongoDB</h4>
+      <div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
 
-				</div>
+        <div class="icon">
+          <img alt="" class="img-responsive img-center" src="assets/git.png"/>
+        </div>
 
-				<div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
+        <h4>Git</h4>
 
-					<div class="icon">
-						<img class="img-responsive img-center" src="assets/sql.png" alt="" />
-					</div>
+      </div>
 
-					<h4>SQL</h4>
+      <div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
 
-				</div>
+        <div class="icon">
+          <img alt="" class="img-responsive img-center" src="assets/gulp.png"/>
+        </div>
 
-				<div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
+        <h4>Gulp</h4>
 
-					<div class="icon">
-						<img class="img-responsive img-center" src="assets/rest.png" alt="" />
-					</div>
+      </div>
 
-					<h4>REST</h4>
+      <div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
 
-				</div>
+        <div class="icon">
+          <img
+            alt=""
+            class="img-responsive img-center"
+            src="assets/bootstrap.png"
+          />
+        </div>
 
-				<div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
+        <h4>Bootstrap</h4>
 
-					<div class="icon">
-						<img class="img-responsive img-center" src="assets/git.png" alt="" />
-					</div>
+      </div>
 
-					<h4>Git</h4>
+    </div>
 
-				</div>
+    <div class="other-tech text-center">
+      <h2><i aria-hidden="true" class="fa fa-lightbulb-o"></i> Other Stuff I
+        Know</h2>
+      <p>
+        I'm also familiar with these handy technologies:
+      </p>
 
-				<div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
+      <div class="row">
+        <ul class="col-sm-2 col-sm-offset-4 list-unstyled">
+          <li>Vue</li>
+          <li>React</li>
+          <li>Webpack</li>
+          <li>Babel</li>
+          <li>Ava</li>
+          <li>Jest</li>
+        </ul>
+        <ul class="col-sm-2 list-unstyled">
+          <li>Elixir</li>
+          <li>Phoenix</li>
+          <li>Elm</li>
+          <li>MongoDB</li>
+          <li>Couchbase</li>
+          <li>Wordpress</li>
+        </ul>
+      </div>
 
-					<div class="icon">
-						<img class="img-responsive img-center" src="assets/gulp.png" alt="" />
-					</div>
+    </div>
 
-					<h4>Gulp</h4>
+  </div>
 
-				</div>
+</section>
 
-				<div class="col-md-2 col-sm-4 col-xs-6 item scrollimation fade-up">
+<!-- ==============================================
+  FEATURED PROJECT
+  =============================================== -->
+<section class="padding-top" id="feat-project">
 
-					<div class="icon">
-						<img class="img-responsive img-center" src="assets/bootstrap.png" alt="" />
-					</div>
+  <div class="container">
 
-					<h4>Bootstrap</h4>
+    <header class="section-header text-center">
 
-				</div>
+      <h1 class="scrollimation scale-in">Featured Project</h1>
+      <h2>liveTracker</h2>
+      <p>
+        This is the capstone project for my Treehouse
+        <a href="https://www.credential.net/dcx66bsh">Techdegree.</a><br> Use
+        Spotify and JamBase to find local concerts for your top Spotify artists.
+      </p>
 
-			</div>
+    </header>
 
-			<div class="other-tech text-center">
-				<h2><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Other Stuff I Know</h2>
-				<p>
-					I'm also familiar with these handy technologies:
-				</p>
+    <div class="scrollimation fade-up">
+      <img
+        alt=""
+        class="img-responsive img-center"
+        src="assets/chrome-top.png"
+      />
 
-				<div class="row">
-					<ul class="col-sm-2 col-sm-offset-4 list-unstyled">
-						<li>npm</li>
-						<li>HTTP</li>
-						<li>AJAX</li>
-						<li>Bower</li>
-					</ul>
-					<ul class="col-sm-2 list-unstyled">
-						<li>jQuery</li>
-						<li>Pug</li>
-						<li>Mocha</li>
-						<li>Chai</li>
-					</ul>
-				</div>
+      <div class="img-wrapper">
 
-			</div>
+        <img
+          alt=""
+          class="img-responsive img-center"
+          src="assets/livetracker1-lg.png"
+        />
 
-		</div>
+        <p class="text-center on-hover"><a
+          class="btn btn-meflat icon-right"
+          href="https://live-tracker.herokuapp.com"
+        >Visit Website<i class="fa fa-arrow-right"></i></a></p>
 
-	</section>
+      </div>
+    </div>
 
-	<!-- ==============================================
-		FEATURED PROJECT
-		=============================================== -->
-	<section id="feat-project" class="padding-top">
+  </div>
 
-		<div class="container">
+</section>
 
-			<header class="section-header text-center">
+<!-- ==============================================
+  PORTFOLIO
+  =============================================== -->
+<section class="gray-bg padding-top-bottom" id="portfolio">
 
-				<h1 class="scrollimation scale-in">Featured Project</h1>
-				<h2>liveTracker</h2>
-				<p>
-					This is the capstone project for my Treehouse <a href="https://www.credential.net/dcx66bsh">Techdegree.</a><br> Use Spotify and JamBase to find local concerts for your top Spotify artists.
-				</p>
+  <div class="container">
 
-			</header>
+    <header class="section-header text-center">
 
-			<div class="scrollimation fade-up">
-				<img class="img-responsive img-center" src="assets/chrome-top.png" alt="" />
+      <h1 class="scrollimation scale-in">My Work</h1>
+      <p>
+        Here is a sample of my latest projects.<br>
+        To peruse more of my code, please head over to my
+        <a href="https://github.com/embryCODE">Github.</a>
+      </p>
 
-				<div class="img-wrapper">
+      <p>
+        Also, note that two of my biggest projects, written in Vue and React,
+        sadly have a private codebase. <br>
+        I'd be happy to show you some of that code in person, however.
+        <a href="#contact">Drop me a line!</a>
+      </p>
+
+    </header>
 
-					<img class="img-responsive img-center" src="assets/livetracker1-lg.png" alt="" />
-
-					<p class="text-center on-hover"><a class="btn btn-meflat icon-right" href="https://live-tracker.herokuapp.com">Visit Website<i class="fa fa-arrow-right"></i></a></p>
-
-				</div>
-			</div>
-
-		</div>
-
-	</section>
-
-	<!-- ==============================================
-		PORTFOLIO
-		=============================================== -->
-	<section id="portfolio" class="gray-bg padding-top-bottom">
-
-		<div class="container">
-
-			<header class="section-header text-center">
-
-				<h1 class="scrollimation scale-in">My Work</h1>
-				<p>
-					Here is a sample of my latest projects.<br> To peruse more of my code, please head over to my <a href="https://github.com/embryCODE">Github.</a>
-				</p>
-
-			</header>
-
-			<!--==== Portfolio Filters ====-->
-			<div id="filter-works" class="hidden-sm hidden-xs">
-				<ul>
-					<li class="active scrollimation fade-right d1">
-						<a href="#" data-filter="*">All</a>
-					</li>
-					<li class="scrollimation fade-right">
-						<a href="#" data-filter=".techdegree">Techdegree</a>
-					</li>
-					<li class="scrollimation fade-left">
-						<a href="#" data-filter=".clients">Clients</a>
-					</li>
-					<li class="scrollimation fade-right d1">
-						<a href="#" data-filter=".wordpress">WordPress</a>
-					</li>
-					<li class="scrollimation fade-left d1">
-						<a href="#" data-filter=".other">Other</a>
-					</li>
-				</ul>
-			</div>
-			<!--End portfolio filters -->
-
-		</div>
-		<!--End portfolio header -->
-
-		<div class="container masonry-wrapper scrollimation fade-in">
-
-			<div id="projects-container">
-
-				<!-- ==============================================
-					SINGLE PROJECT ITEM
-					=============================================== -->
-				<article class="project-item techdegree">
-
-					<img class="img-responsive project-image" src="assets/livetracker1-small.png" alt="">
-					<!--Project thumb -->
-
-					<div class="hover-mask">
-						<h2 class="project-title">liveTracker</h2>
-						<!--Project Title -->
-						<p>Techdegree capstone project</p>
-						<!--Project Subtitle -->
-					</div>
-
-					<!--==== Project Preview HTML ====-->
-
-					<div class="sr-only project-description" data-category="Techdegree" data-date="January 2017" data-client="Treehouse" data-link="live-tracker.herokuapp.com,https://live-tracker.herokuapp.com" data-descr="Capstone project for Techdegree." data-images="assets/livetracker1-lg.png, assets/livetracker2-lg.png, assets/livetracker3-lg.png">
-						<p>
-							liveTracker is the unguided capstone project for my Treehouse Techdegree. It uses the Spotify API along with the JamBase concert API to retrieve a user's top 20 Spotify artists and search for concerts near the user's zip code.
-						</p>
-
-						<p>
-							This is a MEAN app. The backend is built using Node.js, Express, MongoDB, Mongoose, and Passport for authentication. The frontend is built in AngularJS, using Bootstrap as well as custom CSS.
-						</p>
-
-						<p>
-							The best aspect of this project was the challenge of building completely from scratch, which enabled me to scaffold the app exactly the way I wanted and to discover the best solutions to achieve the functionality I was looking for.
-						</p>
-						<p class="text-right"><a class="btn btn-meflat icon-right" href="https://live-tracker.herokuapp.com">Visit Website<i class="fa fa-arrow-right"></i></a></p>
-					</div>
-
-				</article>
-				<!-- ==============================================
-					END PROJECT ITEM
-					=============================================== -->
-
-				<article class="project-item other">
-
-					<img class="img-responsive project-image" src="assets/embrycode1-small.png" alt="">
-					<!--Project thumb -->
-
-					<div class="hover-mask">
-						<h2 class="project-title">embryCODE</h2>
-						<!--Project Title -->
-						<p>This website right here</p>
-						<!--Project Subtitle -->
-					</div>
-
-					<!--==== Project Preview HTML ====-->
-
-					<div class="sr-only project-description" data-date="February 2017" data-client="embryCODE" data-link="embrycode.com,http://www.embrycode.com" data-descr="embryCODE homepage." data-images="assets/embrycode1-lg.png, assets/embrycode2-lg.png, assets/embrycode3-lg.png">
-						<p>
-							The website you are experiencing at the moment was built on Bootstrap 3, using the Me Flat theme by <a href="http://q-themes.net/">Qthemes</a>.
-						</p>
-
-						<p>
-							I added my own content and custom CSS.
-						</p>
-
-						<p class="text-right"><a class="btn btn-meflat icon-right" href="http://www.embrycode.com">Visit Website<i class="fa fa-arrow-right"></i></a></p>
-					</div>
-
-				</article>
-				<!--End Project Item -->
-
-				<article class="project-item clients">
-
-					<img class="img-responsive project-image" src="assets/voodoo1-small.png" alt="">
-					<!--Project thumb -->
-
-					<div class="hover-mask">
-						<h2 class="project-title">Voodoo Lighting Design</h2>
-						<!--Project Title -->
-						<p>Custom project for Voodoo Lighting Design</p>
-						<!--Project Subtitle -->
-					</div>
-
-					<!--==== Project Preview HTML ====-->
-
-					<div class="sr-only project-description" data-category="Client" data-date="December 2016" data-client="Voodoo Lighting Design" data-link="voodoolightingdesign.com,http://www.voodoolightingdesign.com" data-descr="Custom project for Michael Stanley at Voodoo Lighting Design."
-					    data-images="assets/voodoo1-lg.png, assets/voodoo2-lg.png, assets/voodoo3-lg.png">
-						<p>
-							Voodoo Lighting Design's homepage is built using Bootstrap 3. The banner carousel and navigation are from a theme and the rest of the content is coded from scratch by yours truly.
-						</p>
-
-						<p>
-							The top priority for the client was to display several photos in the portfolio section, showing off lighting designs custom made for different artists. I achieved this using carousels and popup modal windows. The jQuery plugins slick and slick-lightbox
-							came in very handy.
-						</p>
-
-						<p class="text-right"><a class="btn btn-meflat icon-right" href="http://www.voodoolightingdesign.com">Visit Website<i class="fa fa-arrow-right"></i></a></p>
-					</div>
-
-				</article>
-				<!--End Project Item -->
-
-				<article class="project-item techdegree">
-
-					<img class="img-responsive project-image" src="assets/course1-small.png" alt="">
-					<!--Project thumb -->
-
-					<div class="hover-mask">
-						<h2 class="project-title">Course Rating API</h2>
-						<!--Project Title -->
-						<p>Techdegree project</p>
-						<!--Project Subtitle -->
-					</div>
-
-					<!--==== Project Preview HTML ====-->
-
-					<div class="sr-only project-description" data-category="Techdegree" data-date="December 2017" data-client="Treehouse" data-descr="API backend for course rating website." data-images="assets/course1-lg.png, assets/course2-lg.png, assets/course3-lg.png">
-						<p>
-							The goal of this Techdegree project was to build out an API backend for a course rating website. The frontend was built by Treehouse using AngularJS and I coded the backend.
-						</p>
-
-						<p>
-							Node.js, Express, and MongoDB were used, with the emphasis being on learning data modeling with MongoDB and Mongoose, and especially data validation.
-						</p>
-
-						<p>
-							Also, authentication in the form of Express middleware was coded from scratch. This was a very good way for me to get my feet wet with authetication, authorization, and user management.
-						</p>
-						<p class="text-right"><a class="btn btn-meflat icon-right" href="https://github.com/embryCODE/course_rating_api">View on Github<i class="fa fa-arrow-right"></i></a></p>
-					</div>
-
-				</article>
-				<!--End Project Item -->
-
-				<article class="project-item techdegree">
-
-					<img class="img-responsive project-image" src="assets/library1-small.png" alt="">
-					<!--Project thumb -->
-
-					<div class="hover-mask">
-						<h2 class="project-title">Library Manager</h2>
-						<!--Project Title -->
-						<p>Techdegree project</p>
-						<!--Project Subtitle -->
-					</div>
-
-					<!--==== Project Preview HTML ====-->
-
-					<div class="sr-only project-description" data-category="Techdegree" data-date="November 2016" data-client="Treehouse" data-descr="Library manager for checking out books." data-images="assets/library1-lg.png, assets/library2-lg.png, assets/library3-lg.png">
-						<p>
-							This is a library book and loan manager built using Node.js and Express. Treehouse provided me with the basic CSS and starting HTML and I went from there, programming the backend to save book, patron, and loan data to a SQL database, and generating HTML
-							from templates.
-						</p>
-
-						<p>
-							Sequelize and Pug templates are the technologies on display in this app. Sequelize was a very helpful ORM and enabled me to interact with the SQL database easily. Pug (formerly Jade) templates delivered HTML to the frontend.
-						</p>
-
-						<p class="text-right"><a class="btn btn-meflat icon-right" href="https://github.com/embryCODE/library_manager">View on Github<i class="fa fa-arrow-right"></i></a></p>
-					</div>
-
-				</article>
-				<!--End Project Item -->
-
-				<article class="project-item techdegree">
-
-					<img class="img-responsive project-image" src="assets/recipe1-small.png" alt="">
-					<!--Project thumb -->
-
-					<div class="hover-mask">
-						<h2 class="project-title">Recipe Database</h2>
-						<!--Project Title -->
-						<p>Techdegree project</p>
-						<!--Project Subtitle -->
-					</div>
-
-					<!--==== Project Preview HTML ====-->
-
-					<div class="sr-only project-description" data-category="Techdegree" data-date="October 2016" data-client="Treehouse" data-descr="Frontend for recipe management website." data-images="assets/recipe1-lg.png, assets/recipe2-lg.png, assets/recipe3-lg.png">
-						<p>
-							For this recipe database, my task was to build the frontend using AngularJS to interact with the REST API provided by Treehouse. It was an excellent introduction to Angular technology and the power of two-way data binding.
-						</p>
-
-						<p>
-							I started with basic HTML and CSS from treehouse and built all of the AngularJS code from scratch.
-						</p>
-
-						<p class="text-right"><a class="btn btn-meflat icon-right" href="https://github.com/embryCODE/single_page_application">View on Github<i class="fa fa-arrow-right"></i></a></p>
-					</div>
-
-				</article>
-				<!--End Project Item -->
-
-				<article class="project-item wordpress">
-
-					<img class="img-responsive project-image" src="assets/mep1-small.png" alt="">
-					<!--Project thumb -->
-
-					<div class="hover-mask">
-						<h2 class="project-title">Mason Embry Productions</h2>
-						<!--Project Title -->
-						<p>Website for my musician persona</p>
-						<!--Project Subtitle -->
-					</div>
-
-					<!--==== Project Preview HTML ====-->
-
-					<div class="sr-only project-description" data-category="WordPress" data-date="2015" data-descr="Website for my musician persona." data-images="assets/mep1-lg.png, assets/mep2-lg.png, assets/mep3-lg.png" data-link="masonembry.com,http://www.masonembry.com">
-						<p>
-							Before my excursion into the world of Full-Stack JavaScript, I worked with WordPress and some basic PHP. I started with a WordPress theme and customized this website to be the online presence for my musician persona.
-						</p>
-
-						<p class="text-right"><a class="btn btn-meflat icon-right" href="https://www.masonembry.com">Visit Website<i class="fa fa-arrow-right"></i></a></p>
-					</div>
-
-				</article>
-				<!--End Project Item -->
-
-				<article class="project-item wordpress">
-
-					<img class="img-responsive project-image" src="assets/ltmp1-small.png" alt="">
-					<!--Project thumb -->
-
-					<div class="hover-mask">
-						<h2 class="project-title">Letters To My Papa</h2>
-						<!--Project Title -->
-						<p>eBook promotion and sales</p>
-						<!--Project Subtitle -->
-					</div>
-
-					<!--==== Project Preview HTML ====-->
-
-					<div class="sr-only project-description" data-category="WordPress" data-date="2016" data-client="Ashley Hertzog Embry" data-descr="eBook promotion and sales." data-images="assets/ltmp1-lg.png, assets/ltmp2-lg.png, assets/ltmp3-lg.png, assets/ltmp4-lg.png"
-					    data-link="letterstomypapa.com,http://www.letterstomypapa.com">
-						<p>
-							Before my excursion into the world of Full-Stack JavaScript, I worked with WordPress and some basic PHP. Like my music website <a href="http://www.masonembry.com">masonembry.com</a>, Letters To My Papa is built using a WordPress theme as a starting
-							point.
-						</p>
-
-						<p>
-							The theme did not include a storefront. I shopped around (pun intended) for a good WordPress commerce plugin and settled on EasyCart. I integrated this plugin with the website and we were up and running.
-						</p>
-
-						<p class="text-right"><a class="btn btn-meflat icon-right" href="https://letterstomypapa.com">Visit Website<i class="fa fa-arrow-right"></i></a></p>
-					</div>
-
-				</article>
-				<!--End Project Item -->
-
-			</div>
-			<!-- End projects -->
-
-		</div>
-		<!-- End container -->
-
-		<!-- ==============================================
-			PROJECT PREVIEW MODAL (Do not alter this markup)
-			=============================================== -->
-		<div id="project-modal" class="modal fade">
-
-			<div class="modal-dialog">
-
-				<div class="modal-content">
-
-					<div class="modal-header">
-
-						<div class="container">
-
-							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-
-							<h1 id="hdr-title" class="text-center"></h1>
-							<div class="row">
-								<div class="col-md-8 col-md-offset-2">
-									<div class="image-wrapper">
-										<img class="img-responsive" src="assets/chrome.png" alt="">
-										<div class="loader"></div>
-										<div class="screen"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-					<div class="modal-body">
-						<div class="container">
-							<div class="row">
-								<div id="project-sidebar" class="col-md-3">
-									<h2 id="sdbr-title"></h2>
-									<p id="sdbr-category"></p>
-									<p id="sdbr-date"></p>
-									<p id="sdbr-client"></p>
-									<p id="sdbr-link">
-										<!--suppress HtmlUnknownAnchorTarget -->
-										<a href="#link" target="_blank"></a>
-									</p>
-									<p id="sdbr-descr"></p>
-								</div>
-								<div id="project-content" class="col-md-8 col-md-offset-1">
-								</div>
-							</div>
-
-						</div>
-					</div>
-					<!-- End modal-body -->
-
-				</div>
-				<!-- End modal-content -->
-
-			</div>
-			<!-- End modal-dialog -->
-
-		</div>
-		<!-- End modal -->
-
-	</section>
-
-
-	<!-- ==============================================
-		CONTACT
-		=============================================== -->
-	<section id="contact" class="dark-bg light-typo padding-top">
-
-		<div class="container">
-
-			<header class="section-header text-center">
-
-				<h1 class="scrollimation scale-in">Drop Me a Line</h1>
-				<p>
-					Please feel free to email me and keep in touch on
-					<a href="https://twitter.com/masone81">Twitter</a>,
-					<a href="https://www.facebook.com/masone81">Facebook</a>, and
-					<a href="https://www.linkedin.com/in/masone81/">LinkedIn</a>.
-				</p>
-
-				<p>
-					Also, my <a href="https://teamtreehouse.com/embrycode">Treehouse</a> profile and <a href="https://github.com/embryCODE">Github</a> may be of interest.
-				</p>
-
-			</header>
-
-			<form id="contact-form" class="bl_form text-center" action="contact.php" method="post" novalidate>
+    <!--==== Portfolio Filters ====-->
+    <div class="hidden-sm hidden-xs" id="filter-works">
+      <ul>
+        <li class="active scrollimation fade-right d1">
+          <a data-filter="*" href="#">All</a>
+        </li>
+        <li class="scrollimation fade-right">
+          <a data-filter=".techdegree" href="#">Techdegree</a>
+        </li>
+        <li class="scrollimation fade-left">
+          <a data-filter=".clients" href="#">Clients</a>
+        </li>
+        <li class="scrollimation fade-right d1">
+          <a data-filter=".wordpress" href="#">WordPress</a>
+        </li>
+        <li class="scrollimation fade-left d1">
+          <a data-filter=".other" href="#">Other</a>
+        </li>
+      </ul>
+    </div>
+    <!--End portfolio filters -->
+
+  </div>
+  <!--End portfolio header -->
+
+  <div class="container masonry-wrapper scrollimation fade-in">
+
+    <div id="projects-container">
+
+      <!-- ==============================================
+        SINGLE PROJECT ITEM
+        =============================================== -->
+      <article class="project-item techdegree">
+
+        <img
+          alt=""
+          class="img-responsive project-image"
+          src="assets/livetracker1-small.png"
+        >
+        <!--Project thumb -->
+
+        <div class="hover-mask">
+          <h2 class="project-title">liveTracker</h2>
+          <!--Project Title -->
+          <p>Techdegree capstone project</p>
+          <!--Project Subtitle -->
+        </div>
+
+        <!--==== Project Preview HTML ====-->
+
+        <div
+          class="sr-only project-description"
+          data-category="Techdegree"
+          data-client="Treehouse"
+          data-date="January 2017"
+          data-descr="Capstone project for Techdegree."
+          data-images="assets/livetracker1-lg.png, assets/livetracker2-lg.png, assets/livetracker3-lg.png"
+          data-link="live-tracker.herokuapp.com,https://live-tracker.herokuapp.com"
+        >
+          <p>
+            liveTracker is the unguided capstone project for my Treehouse
+            Techdegree. It uses the Spotify API along with the JamBase concert
+            API to retrieve a user's top 20 Spotify artists and search for
+            concerts near the user's zip code.
+          </p>
+
+          <p>
+            This is a MEAN app. The backend is built using Node.js, Express,
+            MongoDB, Mongoose, and Passport for authentication. The frontend is
+            built in AngularJS, using Bootstrap as well as custom CSS.
+          </p>
+
+          <p>
+            The best aspect of this project was the challenge of building
+            completely from scratch, which enabled me to scaffold the app
+            exactly the way I wanted and to discover the best solutions to
+            achieve the functionality I was looking for.
+          </p>
+          <p class="text-right"><a
+            class="btn btn-meflat icon-right"
+            href="https://live-tracker.herokuapp.com"
+          >Visit Website<i class="fa fa-arrow-right"></i></a></p>
+        </div>
+
+      </article>
+      <!-- ==============================================
+        END PROJECT ITEM
+        =============================================== -->
+
+      <article class="project-item other">
+
+        <img
+          alt=""
+          class="img-responsive project-image"
+          src="assets/embrycode1-small.png"
+        >
+        <!--Project thumb -->
+
+        <div class="hover-mask">
+          <h2 class="project-title">embryCODE</h2>
+          <!--Project Title -->
+          <p>This website right here</p>
+          <!--Project Subtitle -->
+        </div>
+
+        <!--==== Project Preview HTML ====-->
+
+        <div
+          class="sr-only project-description"
+          data-client="embryCODE"
+          data-date="February 2017"
+          data-descr="embryCODE homepage."
+          data-images="assets/embrycode1-lg.png, assets/embrycode2-lg.png, assets/embrycode3-lg.png"
+          data-link="embrycode.com,http://www.embrycode.com"
+        >
+          <p>
+            The website you are experiencing at the moment was built on
+            Bootstrap 3, using the Me Flat theme by
+            <a href="http://q-themes.net/">Qthemes</a>.
+          </p>
+
+          <p>
+            I added my own content and custom CSS.
+          </p>
+
+          <p class="text-right"><a
+            class="btn btn-meflat icon-right"
+            href="http://www.embrycode.com"
+          >Visit Website<i class="fa fa-arrow-right"></i></a></p>
+        </div>
+
+      </article>
+      <!--End Project Item -->
+
+      <article class="project-item clients">
+
+        <img
+          alt=""
+          class="img-responsive project-image"
+          src="assets/voodoo1-small.png"
+        >
+        <!--Project thumb -->
+
+        <div class="hover-mask">
+          <h2 class="project-title">Voodoo Lighting Design</h2>
+          <!--Project Title -->
+          <p>Custom project for Voodoo Lighting Design</p>
+          <!--Project Subtitle -->
+        </div>
+
+        <!--==== Project Preview HTML ====-->
+
+        <div
+          class="sr-only project-description"
+          data-category="Client"
+          data-client="Voodoo Lighting Design"
+          data-date="December 2016"
+          data-descr="Custom project for Michael Stanley at Voodoo Lighting Design."
+          data-images="assets/voodoo1-lg.png, assets/voodoo2-lg.png, assets/voodoo3-lg.png"
+          data-link="voodoolightingdesign.com,http://www.voodoolightingdesign.com"
+        >
+          <p>
+            Voodoo Lighting Design's homepage is built using Bootstrap 3. The
+            banner carousel and navigation are from a theme and the rest of the
+            content is coded from scratch by yours truly.
+          </p>
+
+          <p>
+            The top priority for the client was to display several photos in the
+            portfolio section, showing off lighting designs custom made for
+            different artists. I achieved this using carousels and popup modal
+            windows. The jQuery plugins slick and slick-lightbox
+            came in very handy.
+          </p>
+
+          <p class="text-right"><a
+            class="btn btn-meflat icon-right"
+            href="http://www.voodoolightingdesign.com"
+          >Visit Website<i class="fa fa-arrow-right"></i></a></p>
+        </div>
+
+      </article>
+      <!--End Project Item -->
+
+      <article class="project-item techdegree">
+
+        <img
+          alt=""
+          class="img-responsive project-image"
+          src="assets/course1-small.png"
+        >
+        <!--Project thumb -->
+
+        <div class="hover-mask">
+          <h2 class="project-title">Course Rating API</h2>
+          <!--Project Title -->
+          <p>Techdegree project</p>
+          <!--Project Subtitle -->
+        </div>
+
+        <!--==== Project Preview HTML ====-->
+
+        <div
+          class="sr-only project-description"
+          data-category="Techdegree"
+          data-client="Treehouse"
+          data-date="December 2017"
+          data-descr="API backend for course rating website."
+          data-images="assets/course1-lg.png, assets/course2-lg.png, assets/course3-lg.png"
+        >
+          <p>
+            The goal of this Techdegree project was to build out an API backend
+            for a course rating website. The frontend was built by Treehouse
+            using AngularJS and I coded the backend.
+          </p>
+
+          <p>
+            Node.js, Express, and MongoDB were used, with the emphasis being on
+            learning data modeling with MongoDB and Mongoose, and especially
+            data validation.
+          </p>
+
+          <p>
+            Also, authentication in the form of Express middleware was coded
+            from scratch. This was a very good way for me to get my feet wet
+            with authetication, authorization, and user management.
+          </p>
+          <p class="text-right"><a
+            class="btn btn-meflat icon-right"
+            href="https://github.com/embryCODE/course_rating_api"
+          >View on Github<i class="fa fa-arrow-right"></i></a></p>
+        </div>
+
+      </article>
+      <!--End Project Item -->
+
+      <article class="project-item techdegree">
+
+        <img
+          alt=""
+          class="img-responsive project-image"
+          src="assets/library1-small.png"
+        >
+        <!--Project thumb -->
+
+        <div class="hover-mask">
+          <h2 class="project-title">Library Manager</h2>
+          <!--Project Title -->
+          <p>Techdegree project</p>
+          <!--Project Subtitle -->
+        </div>
+
+        <!--==== Project Preview HTML ====-->
+
+        <div
+          class="sr-only project-description"
+          data-category="Techdegree"
+          data-client="Treehouse"
+          data-date="November 2016"
+          data-descr="Library manager for checking out books."
+          data-images="assets/library1-lg.png, assets/library2-lg.png, assets/library3-lg.png"
+        >
+          <p>
+            This is a library book and loan manager built using Node.js and
+            Express. Treehouse provided me with the basic CSS and starting HTML
+            and I went from there, programming the backend to save book, patron,
+            and loan data to a SQL database, and generating HTML
+            from templates.
+          </p>
+
+          <p>
+            Sequelize and Pug templates are the technologies on display in this
+            app. Sequelize was a very helpful ORM and enabled me to interact
+            with the SQL database easily. Pug (formerly Jade) templates
+            delivered HTML to the frontend.
+          </p>
+
+          <p class="text-right"><a
+            class="btn btn-meflat icon-right"
+            href="https://github.com/embryCODE/library_manager"
+          >View on Github<i class="fa fa-arrow-right"></i></a></p>
+        </div>
+
+      </article>
+      <!--End Project Item -->
+
+      <article class="project-item techdegree">
+
+        <img
+          alt=""
+          class="img-responsive project-image"
+          src="assets/recipe1-small.png"
+        >
+        <!--Project thumb -->
+
+        <div class="hover-mask">
+          <h2 class="project-title">Recipe Database</h2>
+          <!--Project Title -->
+          <p>Techdegree project</p>
+          <!--Project Subtitle -->
+        </div>
+
+        <!--==== Project Preview HTML ====-->
+
+        <div
+          class="sr-only project-description"
+          data-category="Techdegree"
+          data-client="Treehouse"
+          data-date="October 2016"
+          data-descr="Frontend for recipe management website."
+          data-images="assets/recipe1-lg.png, assets/recipe2-lg.png, assets/recipe3-lg.png"
+        >
+          <p>
+            For this recipe database, my task was to build the frontend using
+            AngularJS to interact with the REST API provided by Treehouse. It
+            was an excellent introduction to Angular technology and the power of
+            two-way data binding.
+          </p>
+
+          <p>
+            I started with basic HTML and CSS from treehouse and built all of
+            the AngularJS code from scratch.
+          </p>
+
+          <p class="text-right"><a
+            class="btn btn-meflat icon-right"
+            href="https://github.com/embryCODE/single_page_application"
+          >View on Github<i class="fa fa-arrow-right"></i></a></p>
+        </div>
+
+      </article>
+      <!--End Project Item -->
+
+      <article class="project-item wordpress">
+
+        <img
+          alt=""
+          class="img-responsive project-image"
+          src="assets/mep1-small.png"
+        >
+        <!--Project thumb -->
+
+        <div class="hover-mask">
+          <h2 class="project-title">Mason Embry Productions</h2>
+          <!--Project Title -->
+          <p>Website for my musician persona</p>
+          <!--Project Subtitle -->
+        </div>
+
+        <!--==== Project Preview HTML ====-->
+
+        <div
+          class="sr-only project-description"
+          data-category="WordPress"
+          data-date="2015"
+          data-descr="Website for my musician persona."
+          data-images="assets/mep1-lg.png, assets/mep2-lg.png, assets/mep3-lg.png"
+          data-link="masonembry.com,http://www.masonembry.com"
+        >
+          <p>
+            Before my excursion into the world of Full-Stack JavaScript, I
+            worked with WordPress and some basic PHP. I started with a WordPress
+            theme and customized this website to be the online presence for my
+            musician persona.
+          </p>
+
+          <p class="text-right"><a
+            class="btn btn-meflat icon-right"
+            href="https://www.masonembry.com"
+          >Visit Website<i class="fa fa-arrow-right"></i></a></p>
+        </div>
+
+      </article>
+      <!--End Project Item -->
+
+      <article class="project-item wordpress">
+
+        <img
+          alt=""
+          class="img-responsive project-image"
+          src="assets/ltmp1-small.png"
+        >
+        <!--Project thumb -->
+
+        <div class="hover-mask">
+          <h2 class="project-title">Letters To My Papa</h2>
+          <!--Project Title -->
+          <p>eBook promotion and sales</p>
+          <!--Project Subtitle -->
+        </div>
+
+        <!--==== Project Preview HTML ====-->
+
+        <div
+          class="sr-only project-description"
+          data-category="WordPress"
+          data-client="Ashley Hertzog Embry"
+          data-date="2016"
+          data-descr="eBook promotion and sales."
+          data-images="assets/ltmp1-lg.png, assets/ltmp2-lg.png, assets/ltmp3-lg.png, assets/ltmp4-lg.png"
+          data-link="letterstomypapa.com,http://www.letterstomypapa.com"
+        >
+          <p>
+            Before my excursion into the world of Full-Stack JavaScript, I
+            worked with WordPress and some basic PHP. Like my music website <a
+            href="http://www.masonembry.com"
+          >masonembry.com</a>, Letters To My Papa is built using a WordPress
+            theme as a starting
+            point.
+          </p>
+
+          <p>
+            The theme did not include a storefront. I shopped around (pun
+            intended) for a good WordPress commerce plugin and settled on
+            EasyCart. I integrated this plugin with the website and we were up
+            and running.
+          </p>
+
+          <p class="text-right"><a
+            class="btn btn-meflat icon-right"
+            href="https://letterstomypapa.com"
+          >Visit Website<i class="fa fa-arrow-right"></i></a></p>
+        </div>
+
+      </article>
+      <!--End Project Item -->
+
+    </div>
+    <!-- End projects -->
+
+  </div>
+  <!-- End container -->
+
+  <!-- ==============================================
+    PROJECT PREVIEW MODAL (Do not alter this markup)
+    =============================================== -->
+  <div class="modal fade" id="project-modal">
+
+    <div class="modal-dialog">
+
+      <div class="modal-content">
+
+        <div class="modal-header">
+
+          <div class="container">
+
+            <button
+              aria-hidden="true"
+              class="close"
+              data-dismiss="modal"
+              type="button"
+            >&times;
+            </button>
+
+            <h1 class="text-center" id="hdr-title"></h1>
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="image-wrapper">
+                  <img alt="" class="img-responsive" src="assets/chrome.png">
+                  <div class="loader"></div>
+                  <div class="screen"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="modal-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3" id="project-sidebar">
+                <h2 id="sdbr-title"></h2>
+                <p id="sdbr-category"></p>
+                <p id="sdbr-date"></p>
+                <p id="sdbr-client"></p>
+                <p id="sdbr-link">
+                  <!--suppress HtmlUnknownAnchorTarget -->
+                  <a href="#link" target="_blank"></a>
+                </p>
+                <p id="sdbr-descr"></p>
+              </div>
+              <div class="col-md-8 col-md-offset-1" id="project-content">
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- End modal-body -->
+
+      </div>
+      <!-- End modal-content -->
+
+    </div>
+    <!-- End modal-dialog -->
+
+  </div>
+  <!-- End modal -->
+
+</section>
+
+
+<!-- ==============================================
+  CONTACT
+  =============================================== -->
+<section class="dark-bg light-typo padding-top" id="contact">
+
+  <div class="container">
+
+    <header class="section-header text-center">
+
+      <h1 class="scrollimation scale-in">Drop Me a Line</h1>
+      <p>
+        Please feel free to email me and keep in touch on
+        <a href="https://twitter.com/masone81">Twitter</a>,
+        <a href="https://www.facebook.com/masone81">Facebook</a>, and
+        <a href="https://www.linkedin.com/in/masone81/">LinkedIn</a>.
+      </p>
+
+      <p>
+        Also, my <a href="https://teamtreehouse.com/embrycode">Treehouse</a>
+        profile and <a href="https://github.com/embryCODE">Github</a> may be of
+        interest.
+      </p>
+
+    </header>
+
+    <form
+      action="contact.php"
+      class="bl_form text-center"
+      id="contact-form"
+      method="post"
+      novalidate
+    >
 				<span class="field-wrap scrollimation fade-right">
 						<label class="control-label" for="contact-name">Name</label>
-						<input id="contact-name" name="contactName" type="text" class="label_better requiredField" data-new-placeholder="Name" placeholder="Name" data-error-empty="*Enter your name">
+						<input
+              class="label_better requiredField"
+              data-error-empty="*Enter your name"
+              data-new-placeholder="Name"
+              id="contact-name"
+              name="contactName"
+              placeholder="Name"
+              type="text"
+            >
 					</span>
-				<span class="field-wrap scrollimation fade-in">
+      <span class="field-wrap scrollimation fade-in">
 						<label class="control-label" for="contact-mail">Email</label>
-						<input id="contact-mail" name="email" type="email" class="label_better requiredField" data-new-placeholder="Email Address" placeholder="Email Address" data-error-empty="*Enter your email" data-error-invalid="x Invalid email address">
+						<input
+              class="label_better requiredField"
+              data-error-empty="*Enter your email"
+              data-error-invalid="x Invalid email address"
+              data-new-placeholder="Email Address"
+              id="contact-mail"
+              name="email"
+              placeholder="Email Address"
+              type="email"
+            >
 					</span>
-				<span class="field-wrap scrollimation fade-left">
+      <span class="field-wrap scrollimation fade-left">
 						<label class="control-label" for="contact-message">Message</label>
-						<textarea id="contact-message" name="comments" rows="1" class="label_better requiredField" data-new-placeholder="Message" placeholder="Message" data-error-empty="*Enter your message"></textarea>
+						<textarea
+              class="label_better requiredField"
+              data-error-empty="*Enter your message"
+              data-new-placeholder="Message"
+              id="contact-message"
+              name="comments"
+              placeholder="Message"
+              rows="1"
+            ></textarea>
 					</span>
 
-				<div class="g-recaptcha" data-sitekey="6LemIBUUAAAAAPc66qZ5UU45-1ALD09oYrc9_8UT" data-theme="dark"></div>
+      <div
+        class="g-recaptcha"
+        data-sitekey="6LemIBUUAAAAAPc66qZ5UU45-1ALD09oYrc9_8UT"
+        data-theme="dark"
+      ></div>
 
-				<p class="text-center"><button name="submit" type="submit" class="btn btn-meflat icon-left" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button></p>
-				<input type="hidden" name="submitted" id="submitted" value="true" />
+      <p class="text-center">
+        <button
+          class="btn btn-meflat icon-left"
+          data-error-message="Error!"
+          data-ok-message="Message Sent"
+          data-sending-message="Sending..."
+          name="submit"
+          type="submit"
+        ><i class="fa fa-paper-plane"></i>Send Message
+        </button>
+      </p>
+      <input id="submitted" name="submitted" type="hidden" value="true"/>
 
-			</form>
+    </form>
 
-		</div>
+  </div>
 
-	</section>
+</section>
 
-	<!-- ==============================================
-		FOOTER
-		=============================================== -->
+<!-- ==============================================
+  FOOTER
+  =============================================== -->
 
-	<footer id="main-footer" class="dark-bg light-typo">
+<footer class="dark-bg light-typo" id="main-footer">
 
-		<div class="container">
+  <div class="container">
 
-			<hr>
+    <hr>
 
-			<div class="row">
+    <div class="row">
 
-				<div class="col-sm-6">
-					<ul class="social-links">
-						<li class="scrollimation fade-right d1"><a href="https://twitter.com/masone81"><i class="fa fa-twitter fa-fw"></i></a></li>
-						<li class="scrollimation fade-right d2"><a href="https://www.facebook.com/masone81"><i class="fa fa-facebook fa-fw"></i></a></li>
-						<li class="scrollimation fade-right d3"><a href="https://github.com/embryCODE"><i class="fa fa-github fa-fw"></i></a></li>
-						<li class="scrollimation fade-right d4"><a href="https://www.linkedin.com/in/masone81/"><i class="fa fa-linkedin fa-fw"></i></a></li>
-					</ul>
-				</div>
+      <div class="col-sm-6">
+        <ul class="social-links">
+          <li class="scrollimation fade-right d1">
+            <a href="https://twitter.com/masone81"><i class="fa fa-twitter fa-fw"></i></a>
+          </li>
+          <li class="scrollimation fade-right d2">
+            <a href="https://www.facebook.com/masone81"><i class="fa fa-facebook fa-fw"></i></a>
+          </li>
+          <li class="scrollimation fade-right d3">
+            <a href="https://github.com/embryCODE"><i class="fa fa-github fa-fw"></i></a>
+          </li>
+          <li class="scrollimation fade-right d4">
+            <a href="https://www.linkedin.com/in/masone81/"><i class="fa fa-linkedin fa-fw"></i></a>
+          </li>
+        </ul>
+      </div>
 
-				<div class="col-sm-6 text-right">
-					<p>
-						&copy;2014 Me Flat Theme by <a href="http://q-themes.net/">Qthemes</a> | customized by <a href="http://www.embrycode.com">embryCODE</a>
-					</p>
-				</div>
+      <div class="col-sm-6 text-right">
+        <p>
+          &copy;2014 Me Flat Theme by <a href="http://q-themes.net/">Qthemes</a>
+          | customized by <a href="http://www.embrycode.com">embryCODE</a>
+        </p>
+      </div>
 
-			</div>
+    </div>
 
-		</div>
+  </div>
 
-	</footer>
+</footer>
 
 
-	<!-- ==============================================
-		SCRIPTS
-		=============================================== -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script>
-		window.jQuery || document.write("<script src='js/libs/jquery-1.9.1.min.js'>\x3C/script>")
-	</script>
+<!-- ==============================================
+  SCRIPTS
+  =============================================== -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+window.jQuery || document.write('<script src=\'js/libs/jquery-1.9.1.min.js\'>\x3C/script>')
+</script>
 
-	<script src="js/libs/bootstrap.min.js"></script>
-	<script src="js/jquery.easing.1.3.min.js"></script>
-	<script src="js/jquery.scrollto.js"></script>
-	<script src="js/jquery.fittext.js"></script>
-	<script src="js/jquery.flexslider.min.js"></script>
-	<script src="js/jquery.masonry.js"></script>
-	<script src="js/waypoints.min.js"></script>
-	<script src="js/jquery.label_better.min.js"></script>
-	<script src="js/jquery.easypiechart.js"></script>
-	<script src="js/contact.js"></script>
-	<script src="js/meflat.js"></script>
-	<script src="https://www.google.com/recaptcha/api.js"></script>
+<script src="js/libs/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.min.js"></script>
+<script src="js/jquery.scrollto.js"></script>
+<script src="js/jquery.fittext.js"></script>
+<script src="js/jquery.flexslider.min.js"></script>
+<script src="js/jquery.masonry.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.label_better.min.js"></script>
+<script src="js/jquery.easypiechart.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/meflat.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
 
 </body>
 
